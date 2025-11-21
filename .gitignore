@@ -1,18 +1,21 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# === Rust / Anchor ===
+target/
+programs/**/target/
+**/*.rs.bk
 
-# Other files and folders
-.settings/
+# === Node / Typescript / Frontend ===
+node_modules/
+dist/
+out/
+build/
+.npm/
+.pnpm-store/
+.yarn/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# === OS / Editor ===
+.DS_Store
+*.log
+.env
+.env.*
+.idea/
+.vscode/
