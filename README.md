@@ -40,7 +40,7 @@ DecentraStack 是一个 **从极简到复杂、持续演进的 Solana 全栈训�
 * Transaction + Instruction
 * Web3.js 交互
 
-小项目：**链上计数器 Counter Program**
+小项目：**[链上计数器 Counter Program](./01_counter_program/README.md)**
 
 ---
 
